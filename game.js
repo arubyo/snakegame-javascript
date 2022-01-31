@@ -13,7 +13,7 @@ function main(currentTime)
  {
     if (gameOver) {
        if(confirm('Damn, you suck. Press ok to retry')) {
-          window.location = './snake.html'
+          window.location = '/'
        }
        return 
     }
